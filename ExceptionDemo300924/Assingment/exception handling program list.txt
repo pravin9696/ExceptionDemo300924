@@ -1,0 +1,40 @@
+Exception handling program list
+
+Q 1. Write a Java Program to handle ArithmeticException.
+Q 2. Write a Java Program to handle NumberFormatException.
+Q 3. Write a Java Program to handle NullPointerException.
+Q 4. Write a Java Program to handle InputMismatchException.
+Q 5. Write a Java Program to handle ArrayIndexOutBoundException.
+Q 6. Write a Java Program to handle String IndexOutBoundException.
+Q 7. Write a Java Program to handle ClassNotFoundException.
+
+String str="pune";
+
+char ch=str.charAt(5);//e
+
+int []x=new int[5];
+
+x[4]=999;
+x[6];//===>
+
+student s1;
+s1.show();// ==> NullpointerException
+
+------------------------------------------------------------------------------------------------
+
+Q 8. Write a Java program to handle a UserDefined Exception:
+
+Q 9. Write a Java program that throws an exception and catch it using a try-catch block.
+
+Q 10. Write a Java program to create a method that takes an integer as a parameter and throws an exception if the number is odd.
+
+Q 11. Write a Java program that reads a list of numbers from a file and throws an exception if any of the numbers are positive.
+
+Q 12. Write a Java program to create a method that takes a string as input and throws an exception if the string does not contain vowels.
+
+
+Q 13. Write a class employee with some instance variables link emp_id, name, sal, dept. create array of 5 employee objects and store information of employees into it. 
+	when store/display information of employees handle different types of exceptions like ArrayTypeMismatchException,NullReferenceException,IndexOutOfRangeException.
+
+Q 14. Write a class student with some instance variables link roll_no,sub[5],total_marks,per with appropriate data types. student clas is inherited from class person which have instance variables like name, adhar, PAN. 
+	Create array of 5 student objects and store information of students into it. when store/display information of student, handle different types of exceptions like ArrayTypeMismatchException, NullReferenceException, IndexOutOfRangeException.
